@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "lint:ts": "tslint --project ./tsconfig.json --type-check 'src/**.ts'",
     "smoke:ts": "tsc --noEmit --pretty",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch"
