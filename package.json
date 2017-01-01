@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/jiaweihli/monapt/issues"
   },
-  "homepage": "https://github.com/jiaweihli/monapt#readme"
+  "homepage": "https://github.com/jiaweihli/monapt#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.3"
+  }
 }
