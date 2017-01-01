@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "lint:ts": "tslint --project ./tsconfig.json --type-check 'src/**.ts'",
+    "lint:ts": "tslint --force --format verbose --project ./tsconfig.json --type-check './src/**/*.ts' './test/**/*.ts'",
     "smoke:ts": "tsc --noEmit --pretty",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "webpack --config test.config.js && ava --verbose",
     "watch": "webpack --watch"
   },
   "repository": {
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/jiaweihli/monapt#readme",
   "devDependencies": {
     "ava": "^0.17.0",
+    "glob": "^7.1.1",
     "ts-loader": "^1.3.3",
     "tslint": "^4.2.0",
     "typescript": "^2.1.4",
