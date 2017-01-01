@@ -1,0 +1,30 @@
+{
+  "name": "monapt",
+  "version": "1.0.0",
+  "description": "Type abstractions for TypeScript and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaweihli/monapt.git"
+  },
+  "keywords": [
+    "option",
+    "future",
+    "try",
+    "monad",
+    "functional",
+    "util",
+    "scala",
+    "type",
+    "types"
+  ],
+  "author": "Kevin Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiaweihli/monapt/issues"
+  },
+  "homepage": "https://github.com/jiaweihli/monapt#readme"
+}
