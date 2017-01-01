@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "smoke:ts": "tsc --noEmit --pretty",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch"
   },
