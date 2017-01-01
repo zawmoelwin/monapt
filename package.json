@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/jiaweihli/monapt#readme",
   "devDependencies": {
+    "typescript": "^2.1.4",
     "webpack": "^2.2.0-rc.3"
   }
 }
