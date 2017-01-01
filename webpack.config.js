@@ -1,7 +1,7 @@
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/monapt.ts',
   output: {
-    filename: 'bundle.js',
+    filename: 'monapt.js',
     path: './dist'
   },
   module: {
