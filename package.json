@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/jiaweihli/monapt#readme",
   "devDependencies": {
+    "ava": "^0.17.0",
     "ts-loader": "^1.3.3",
     "tslint": "^4.2.0",
     "typescript": "^2.1.4",
